@@ -7,6 +7,8 @@ FIND_PACKAGE(deal.II 9.5 REQUIRED
   )
 DEAL_II_INITIALIZE_CACHED_VARIABLES()
 
+set(CMAKE_INSTALL_DO_STRIP TRUE)
+
 # Uses the FindBoost module of CMake
 find_package(Boost 1.83 COMPONENTS filesystem REQUIRED)
 

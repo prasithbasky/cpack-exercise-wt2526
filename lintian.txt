@@ -1,0 +1,19 @@
+root@3d4b6c82c0f6:/mnt/cpack-exercise/build# lintian ./cpackexample_0.1.0_amd64.deb
+running with root privileges is not recommended!
+E: cpackexample: malformed-contact Maintainer murugapy
+E: cpackexample: no-changelog usr/share/doc/cpackexample/changelog.gz (native package)
+E: cpackexample: no-copyright-file
+E: cpackexample: unstripped-binary-or-object [usr/bin/cpackexample]
+W: cpackexample: executable-not-elf-or-script [usr/include/cpackexamplelib/fem.hpp]
+W: cpackexample: executable-not-elf-or-script [usr/include/cpackexamplelib/filesystem.hpp]
+W: cpackexample: executable-not-elf-or-script [usr/include/cpackexamplelib/flatset.hpp]
+W: cpackexample: executable-not-elf-or-script ... use "--tag-display-limit 0" to see all (or pipe to a file/program)
+W: cpackexample: no-manual-page [usr/bin/cpackexample]
+W: cpackexample: non-standard-dir-perm 0777 != 0755 [usr/]
+W: cpackexample: non-standard-dir-perm 0777 != 0755 [usr/bin/]
+W: cpackexample: non-standard-dir-perm 0777 != 0755 [usr/include/]
+W: cpackexample: non-standard-dir-perm ... use "--tag-display-limit 0" to see all (or pipe to a file/program)
+W: cpackexample: non-standard-executable-perm 0777 != 0755 [usr/bin/cpackexample]
+W: cpackexample: non-standard-executable-perm 0777 != 0755 [usr/include/cpackexamplelib/fem.hpp]
+W: cpackexample: non-standard-executable-perm 0777 != 0755 [usr/include/cpackexamplelib/filesystem.hpp]
+W: cpackexample: non-standard-executable-perm ... use "--tag-display-limit 0" to see all (or pipe to a file/program)
